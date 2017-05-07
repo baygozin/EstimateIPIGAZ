@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="13.8.1" version="13.8.1" Modules="architect" RootPath="." Language="en" Id="{16E6F520-BC8C-4AFF-B77B-3C7F29621F7F}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;ActSyncAppComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1" MultiBuildValue="DefaultBuild:"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="owl.exe" Type="8"/>
+    <ROW Property="Manufacturer" Value="IPIGAZ"/>
+    <ROW Property="ProductCode" Value="1033:{3E759D54-4FC0-4B66-A80D-37A0E0A21D36} 1049:{47779E0C-06A9-44C8-A860-EE767CA62582} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1049"/>
+    <ROW Property="ProductName" Value="EstimateAsm"/>
+    <ROW Property="ProductVersion" Value="2.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{84BA1D5F-6357-41FD-B2A8-AEAD677FE814}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="DocumentFormat.OpenXml.dll" ComponentId="{F157F5DA-11C9-443C-B508-DE446A6AB8A0}" Directory_="APPDIR" Attributes="0" KeyPath="DocumentFormat.OpenXml.dll"/>
+    <ROW Component="EstimatesAssembly.exe" ComponentId="{DBBC9DD1-C967-4EBA-8929-FC14BA4303D3}" Directory_="APPDIR" Attributes="0" KeyPath="EstimatesAssembly.exe"/>
+    <ROW Component="EstimatesClose.exe" ComponentId="{73F33EFD-E6F1-4190-AC70-3EEDF9EE33FF}" Directory_="APPDIR" Attributes="0" KeyPath="EstimatesClose.exe"/>
+    <ROW Component="EstimatesClose.exe.config" ComponentId="{6454420A-210C-4E54-B441-4F951F2AFAE8}" Directory_="APPDIR" Attributes="0" KeyPath="EstimatesClose.exe.config" Type="0"/>
+    <ROW Component="Microsoft.CSharp.dll" ComponentId="{11597A69-0A9E-448E-8AF0-BF87E604CFDB}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.CSharp.dll"/>
+    <ROW Component="Microsoft.Office.Interop.Excel.dll" ComponentId="{76DE1C03-8BCD-451B-AED4-E5B2DC547010}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Office.Interop.Excel.dll"/>
+    <ROW Component="Microsoft.VisualBasic.dll" ComponentId="{B789FEC1-257D-4CE7-B183-B6CA8DDCE231}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.VisualBasic.dll"/>
+    <ROW Component="OfficeApi.dll" ComponentId="{C2A64CCB-C365-4A20-B732-B25540DEC2C8}" Directory_="APPDIR" Attributes="0" KeyPath="OfficeApi.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{F1142144-D60C-4D43-AEF1-ABD29FB54D36}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{EF059C9B-C1E9-467D-9568-519C870EB982}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="System.Configuration.dll" ComponentId="{C5B9276A-DDBF-4D97-93F4-265C75CDA4D9}" Directory_="APPDIR" Attributes="0" KeyPath="System.Configuration.dll"/>
+    <ROW Component="System.Core.dll" ComponentId="{72E5001E-10E0-4107-B1B1-A76FCCD86E8B}" Directory_="APPDIR" Attributes="0" KeyPath="System.Core.dll"/>
+    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{684EB602-6F74-48D3-8506-95B94D2B6549}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.DataSetExtensions.dll"/>
+    <ROW Component="System.Data.dll" ComponentId="{84B463FA-B38B-43D5-B153-2827EE494B37}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.dll"/>
+    <ROW Component="System.Deployment.dll" ComponentId="{9BB32522-9E91-4B1C-B654-39AD34BC92B4}" Directory_="APPDIR" Attributes="0" KeyPath="System.Deployment.dll"/>
+    <ROW Component="System.DirectoryServices.dll" ComponentId="{6D376D6C-0C84-4CDD-89A8-7FB0569E65B4}" Directory_="APPDIR" Attributes="0" KeyPath="System.DirectoryServices.dll"/>
+    <ROW Component="System.Drawing.dll" ComponentId="{6B6D239A-1387-4A59-A27B-D13EE6CB4818}" Directory_="APPDIR" Attributes="0" KeyPath="System.Drawing.dll"/>
+    <ROW Component="System.Web.Extensions.dll" ComponentId="{DA0282EB-23AE-4544-91D1-357E33D92C08}" Directory_="APPDIR" Attributes="0" KeyPath="System.Web.Extensions.dll"/>
+    <ROW Component="System.Windows.Forms.dll" ComponentId="{4D9BB806-8A18-486A-8FAC-85FA7536C813}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.dll"/>
+    <ROW Component="System.Xml.Linq.dll" ComponentId="{5C32E445-313E-436D-98E7-2B80EDBEEE27}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.Linq.dll"/>
+    <ROW Component="System.Xml.dll" ComponentId="{A45BC45E-953C-4E41-BCC0-DCB32D3B0E1D}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.dll"/>
+    <ROW Component="System.dll" ComponentId="{97CFDEA3-7D5C-4FEC-8AA0-D2CC63DB5BA4}" Directory_="APPDIR" Attributes="0" KeyPath="System.dll"/>
+    <ROW Component="VBIDEApi.dll" ComponentId="{CC8A36CE-C7C1-47C5-956F-9CAFA3680327}" Directory_="APPDIR" Attributes="0" KeyPath="VBIDEApi.dll"/>
+    <ROW Component="WindowsBase.dll" ComponentId="{97FB4DF8-FDC0-434C-B4C2-26021991BF10}" Directory_="APPDIR" Attributes="0" KeyPath="WindowsBase.dll"/>
+    <ROW Component="mscorlib.dll" ComponentId="{FF8DCBE8-EEAD-4B24-B287-D4F8759023BB}" Directory_="APPDIR" Attributes="0" KeyPath="mscorlib.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="DocumentFormat.OpenXml.dll EstimatesAssembly.exe EstimatesClose.exe EstimatesClose.exe.config Microsoft.CSharp.dll Microsoft.Office.Interop.Excel.dll Microsoft.VisualBasic.dll OfficeApi.dll ProductInformation SHORTCUTDIR System.Configuration.dll System.Core.dll System.Data.DataSetExtensions.dll System.Data.dll System.Deployment.dll System.DirectoryServices.dll System.Drawing.dll System.Web.Extensions.dll System.Windows.Forms.dll System.Xml.Linq.dll System.Xml.dll System.dll VBIDEApi.dll WindowsBase.dll mscorlib.dll"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="DocumentFormat.OpenXml.dll" Component_="DocumentFormat.OpenXml.dll" FileName="DOCUME~1.DLL|DocumentFormat.OpenXml.dll" Attributes="0" SourcePath="bin\Release\DocumentFormat.OpenXml.dll" SelfReg="false" NextFile="EstimatesAssembly.exe.config"/>
+    <ROW File="EstimatesAssembly.exe" Component_="EstimatesAssembly.exe" FileName="ESTIMA~2.EXE|EstimatesAssembly.exe" Attributes="0" SourcePath="bin\Release\EstimatesAssembly.exe" SelfReg="false" NextFile="EstimatesClose.exe.config" DigSign="true"/>
+    <ROW File="EstimatesAssembly.exe.config" Component_="EstimatesClose.exe.config" FileName="ESTIMA~2.CON|EstimatesAssembly.exe.config" Attributes="0" SourcePath="bin\Release\EstimatesAssembly.exe.config" SelfReg="false" NextFile="Microsoft.CSharp.dll"/>
+    <ROW File="EstimatesClose.exe" Component_="EstimatesClose.exe" FileName="ESTIMA~1.EXE|EstimatesClose.exe" Attributes="0" SourcePath="..\..\Estimates_upi\EstimatesClose\bin\Release\EstimatesClose.exe" SelfReg="false" NextFile="System.Configuration.dll" DigSign="true"/>
+    <ROW File="EstimatesClose.exe.config" Component_="EstimatesClose.exe.config" FileName="ESTIMA~1.CON|EstimatesClose.exe.config" Attributes="0" SourcePath="..\..\Estimates_upi\EstimatesClose\bin\Release\EstimatesClose.exe.config" SelfReg="false" NextFile="mscorlib.dll"/>
+    <ROW File="Microsoft.CSharp.dll" Component_="Microsoft.CSharp.dll" FileName="MICROS~1.DLL|Microsoft.CSharp.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.CSharp.dll" SelfReg="false" NextFile="Microsoft.Office.Interop.Excel.dll"/>
+    <ROW File="Microsoft.Office.Interop.Excel.dll" Component_="Microsoft.Office.Interop.Excel.dll" FileName="MICROS~2.DLL|Microsoft.Office.Interop.Excel.dll" Attributes="0" SourcePath="..\packages\Microsoft.Office.Interop.Excel.14.0.0.1\lib\net20\Microsoft.Office.Interop.Excel.dll" SelfReg="false" NextFile="OfficeApi.dll"/>
+    <ROW File="Microsoft.VisualBasic.dll" Component_="Microsoft.VisualBasic.dll" FileName="MICROS~3.DLL|Microsoft.VisualBasic.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" SelfReg="false" NextFile="System.dll"/>
+    <ROW File="OfficeApi.dll" Component_="OfficeApi.dll" FileName="OFFICE~1.DLL|OfficeApi.dll" Attributes="0" SourcePath="..\packages\NetOffice.Core.1.7.3.0\lib\net45\OfficeApi.dll" SelfReg="false" NextFile="Microsoft.VisualBasic.dll"/>
+    <ROW File="System.Configuration.dll" Component_="System.Configuration.dll" FileName="SYSTEM~1.DLL|System.Configuration.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Configuration.dll" SelfReg="false" NextFile="EstimatesAssembly.exe"/>
+    <ROW File="System.Core.dll" Component_="System.Core.dll" FileName="SYSTEM~2.DLL|System.Core.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" SelfReg="false" NextFile="System.Data.DataSetExtensions.dll"/>
+    <ROW File="System.Data.DataSetExtensions.dll" Component_="System.Data.DataSetExtensions.dll" FileName="SYSTEM~3.DLL|System.Data.DataSetExtensions.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.DataSetExtensions.dll" SelfReg="false" NextFile="System.Data.dll"/>
+    <ROW File="System.Data.dll" Component_="System.Data.dll" FileName="SYSTEM~4.DLL|System.Data.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" SelfReg="false" NextFile="System.Deployment.dll"/>
+    <ROW File="System.Deployment.dll" Component_="System.Deployment.dll" FileName="SYSTEM~5.DLL|System.Deployment.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Deployment.dll" SelfReg="false" NextFile="System.Drawing.dll"/>
+    <ROW File="System.DirectoryServices.dll" Component_="System.DirectoryServices.dll" FileName="SYSTE~11.DLL|System.DirectoryServices.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.DirectoryServices.dll" SelfReg="false"/>
+    <ROW File="System.Drawing.dll" Component_="System.Drawing.dll" FileName="SYSTEM~6.DLL|System.Drawing.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" SelfReg="false" NextFile="System.Web.Extensions.dll"/>
+    <ROW File="System.Web.Extensions.dll" Component_="System.Web.Extensions.dll" FileName="SYSTEM~7.DLL|System.Web.Extensions.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Extensions.dll" SelfReg="false" NextFile="System.Windows.Forms.dll"/>
+    <ROW File="System.Windows.Forms.dll" Component_="System.Windows.Forms.dll" FileName="SYSTEM~8.DLL|System.Windows.Forms.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" SelfReg="false" NextFile="System.Xml.dll"/>
+    <ROW File="System.Xml.Linq.dll" Component_="System.Xml.Linq.dll" FileName="SYSTE~10.DLL|System.Xml.Linq.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.Linq.dll" SelfReg="false" NextFile="VBIDEApi.dll"/>
+    <ROW File="System.Xml.dll" Component_="System.Xml.dll" FileName="SYSTEM~9.DLL|System.Xml.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" SelfReg="false" NextFile="System.Xml.Linq.dll"/>
+    <ROW File="System.dll" Component_="System.dll" FileName="System.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" SelfReg="false" NextFile="System.Core.dll"/>
+    <ROW File="VBIDEApi.dll" Component_="VBIDEApi.dll" FileName="VBIDEApi.dll" Attributes="0" SourcePath="..\packages\NetOffice.Core.1.7.3.0\lib\net45\VBIDEApi.dll" SelfReg="false" NextFile="WindowsBase.dll"/>
+    <ROW File="WindowsBase.dll" Component_="WindowsBase.dll" FileName="WINDOW~1.DLL|WindowsBase.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\WindowsBase.dll" SelfReg="false" NextFile="System.DirectoryServices.dll"/>
+    <ROW File="mscorlib.dll" Component_="mscorlib.dll" FileName="mscorlib.dll" Attributes="0" SourcePath="..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" SelfReg="false" NextFile="DocumentFormat.OpenXml.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="1" PackageFolder="..\..\..\Users\Administrator\Documents\Advanced Installer\Projects\Сборка смет\Setup Files" Languages="en;ru" InstallationType="4" PackageType="1" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_ru.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="1401"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="1403"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="1402"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AppDataFolder][ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="owl.exe" SourcePath="owl.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="EstimatesAssembly.exe" Directory_="SHORTCUTDIR" Name="ESTIMA~2.EXE|EstimatesAssembly.exe" Component_="EstimatesAssembly.exe" Target="[#EstimatesAssembly.exe]" Description="EstimatesAssembly.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="EstimatesAssembly.exe_1" Directory_="DesktopFolder" Name="ESTIMA~2.EXE|EstimatesAssembly.exe" Component_="EstimatesAssembly.exe" Target="[#EstimatesAssembly.exe]" Description="EstimatesAssembly.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="EstimatesClose.exe" Directory_="SHORTCUTDIR" Name="ESTIMA~1.EXE|EstimatesClose.exe" Component_="EstimatesClose.exe" Target="[#EstimatesClose.exe]" Description="EstimatesClose.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="EstimatesClose.exe_1" Directory_="DesktopFolder" Name="ESTIMA~1.EXE|EstimatesClose.exe" Component_="EstimatesClose.exe" Target="[#EstimatesClose.exe]" Description="EstimatesClose.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="graphite"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
